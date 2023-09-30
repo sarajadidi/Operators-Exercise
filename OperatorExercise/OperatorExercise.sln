@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorExercise", "OperatorExercise.csproj", "{37671578-FB27-4A39-8416-83D9EA8499AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37671578-FB27-4A39-8416-83D9EA8499AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37671578-FB27-4A39-8416-83D9EA8499AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37671578-FB27-4A39-8416-83D9EA8499AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37671578-FB27-4A39-8416-83D9EA8499AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {792D0243-6E5F-4EF9-B05B-9A68FBF66FAF}
+	EndGlobalSection
+EndGlobal
