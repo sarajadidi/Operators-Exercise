@@ -18,10 +18,14 @@
             //if (a == 17 && b == 4) ;
 
 
-             Console.WriteLine($"17/4 is { a / b } remainder {a % b} ");
+            Console.WriteLine($"17/4 is { a / b } remainder {a % b} ");
+            Console.WriteLine("What is the radius of your circle?");
 
 
 
+        }
+        public static int AreaOfCircle()
+        {
 
         }
     }
