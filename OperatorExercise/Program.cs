@@ -4,29 +4,35 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello");
-            int a = 17;
-            int b = 4;
-
-            Console.WriteLine(a + b);
-            Console.WriteLine(a - b);
-            Console.WriteLine(a * b);
-            
-            int quotient = a / b;
-            int remainder = a % b;
+            //Console.WriteLine(a + b);
+            //Console.WriteLine(a - b);
+            //Console.WriteLine(a * b);
 
             //if (a == 17 && b == 4) ;
 
 
+            int a = 17;
+            int b = 4;
+
+            int quotient = a / b;
+            int remainder = a % b;
+
+           
+
             Console.WriteLine($"17/4 is { a / b } remainder {a % b} ");
             Console.WriteLine("What is the radius of your circle?");
+            var radius = double.Parse(Console.ReadLine());
 
+            double area = AreaOfCircle(radius);
 
+            Console.WriteLine($"The area of a circle with a radius of {radius} is {area} ");
 
         }
-        public static int AreaOfCircle()
+        public static double AreaOfCircle(double radius)
         {
-
+            double formula = Math.PI * radius * radius;
+            return formula;
         }
     }
 }
+ 
