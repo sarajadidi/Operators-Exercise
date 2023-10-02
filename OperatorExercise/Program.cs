@@ -30,8 +30,8 @@
         }
         public static double AreaOfCircle(double radius)
         {
-            double formula = Math.PI * radius * radius;
-            return formula;
+            return Math.PI * radius * radius;
+            
         }
     }
 }
