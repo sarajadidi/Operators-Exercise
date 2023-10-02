@@ -19,7 +19,7 @@
 
            
 
-            Console.WriteLine($"17/4 is { a / b } remainder {a % b} ");
+            Console.WriteLine($"{a}/{b} is {quotient} remainder {remainder} ");
             Console.WriteLine("What is the radius of your circle?");
             var radius = double.Parse(Console.ReadLine());
 
